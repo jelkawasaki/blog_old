@@ -1,0 +1,25 @@
+site_name: My Awesome Site  # サイト名
+
+theme:
+  name: 'material'          # テーマ名を 'material' に設定
+  palette:
+    primary: 'indigo'       # メインカラー
+    accent: 'pink'          # アクセントカラー
+  icon:
+    repo: fontawesome/brands/github  # GitHubのアイコン
+  features:
+    - search.highlight      # 検索結果のハイライト
+    - search.suggest        # 検索補完の有効化
+
+nav:
+  - Home: index.md          # ホームページ
+  - About: about.md         # アバウトページ
+  - GitHub: https://github.com/your-repo  # 外部リンク
+
+extra:
+  logo: 'images/logo.png'          # ロゴ画像のパス
+  favicon: 'images/favicon.ico'    # Faviconのパス
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-repo  # GitHubのリンク
+  copyright: "Copyright &copy; 2024 Your Name"  # フッターの著作権表記

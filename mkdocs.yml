@@ -1,0 +1,31 @@
+site_name: My Awesome Site  # サイト名
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'amber'         # メインの背景色に黄色系（"amber"）を設定
+    accent: 'deep-orange'    # アクセントカラーにオレンジ系を設定
+    scheme: default          # スキームはデフォルト（ライトモード）
+  toggle:
+    icon: material/weather-sunny   # アイコンにサニーを設定
+    name: ライトテーマ
+  features:
+    - search.highlight       # 検索結果のハイライト
+    - search.suggest         # 検索補完
+
+nav:
+  - Home: index.md          # ホームページ
+  - About: about.md         # アバウトページ
+  - GitHub: https://github.com/your-repo  # 外部リンク
+
+extra:
+  logo: 'images/logo.png'          # ロゴ画像のパス
+  favicon: 'images/favicon.ico'    # Faviconのパス
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-repo  # GitHubのリンク
+  copyright: "Copyright &copy; 2024 Your Name"  # フッターの著作権表記
+
+extra_css:
+  - css/extra.css
+

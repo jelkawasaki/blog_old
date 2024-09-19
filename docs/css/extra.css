@@ -1,0 +1,11 @@
+body {
+    background-color: #F6C44A;  /* 背景色を画像のような黄色に設定 */
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #333333;  /* 文字色を濃いグレーに設定 */
+}
+
+footer.md-footer {
+    display: none;
+}
